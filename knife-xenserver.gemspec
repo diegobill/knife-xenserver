@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
 
   s.add_dependency "terminal-table", "~> 1.4"
-  s.add_dependency "chef", "~> 11.18"
+  s.add_dependency "chef", "~> 12.4.3"
   s.add_dependency "fog", "~> 1.34"
   s.add_dependency "uuidtools", "~> 2.1.5"
 
